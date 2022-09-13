@@ -55,16 +55,23 @@ export const config = {
       ]
     },
     {
-      name: "",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "",
-      festivals: [ ],
-      customizedDateList: []
+      name: "宝贝",
+      id: "o3kuC6oz9LncvuMvhkAJiUEie8i0",
+      useTemplateId: "eYpfvOeTryP0p1KnCUvzsw4Wg6Zgg-GksVDtkWVivQE",
+      province: "河北",
+      city: "廊坊",
+      horoscopeDate: '05-28',
+      horoscopeDateType: '今日',
+      openUrl: "https://weibo.com/",
+      festivals: [ 
+      {"type": "*生日", "name": "宝贝", "year": "1998", "date": "05-28"},
+      ],
+      customizedDateList: [
+      // 在一起的日子
+        {"keyword": "love_day", date: "2022-03-30"},
+        // 结婚纪念日
+        {"keyword": "marry_day", date: "2022-02-25"},
+      ]
     },
     {
       name: "老婆2",
