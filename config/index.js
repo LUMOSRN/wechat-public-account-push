@@ -55,24 +55,16 @@ export const config = {
       ]
     },
     {
-      name: "老婆1",
-      id: "o3kuC6oz9LncvuMvhkAJiUEie8i0",
-      useTemplateId: "KsW-aJQBtMc2hERhv_RyVNd6RJdt4uQxYZqO8s_DBFA",
-      province: "河北",
-      city: "廊坊",
-      horoscopeDate: '05-28',
-      horoscopeDateType: '今日',
-      openUrl: "https://weibo.com/",
-      festivals: [
-        {"type": "*生日", "name": "老婆", "year": "1998", "date": "05-28"},
-                 ],
-      customizedDateList: [
-      {"keyword": "love_day", date: "2022-03-30"},
-        // 结婚纪念日
-        //{"keyword": "marry_day", date: "2022-09-09"},
-        // 退伍日
-        //{"keyword": "ex_day", date: "2022-09-10"},
-      ]
+      name: "",
+      id: "",
+      useTemplateId: "",
+      province: "",
+      city: "",
+      horoscopeDate: '',
+      horoscopeDateType: '',
+      openUrl: "",
+      festivals: [ ],
+      customizedDateList: []
     },
     {
       name: "老婆2",
@@ -107,15 +99,15 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "KsW-aJQBtMc2hERhv_RyVNd6RJdt4uQxYZqO8s_DBFA",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
     {
       // 一般都填自己
-      name: "自己",
+      name: "0",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "KsW-aJQBtMc2hERhv_RyVNd6RJdt4uQxYZqO8s_DBFA",
     },
     // 你可以不断按格式往下增加
     // ...
