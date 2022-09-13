@@ -63,14 +63,16 @@ export const config = {
       horoscopeDate: '05-28',
       horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [{"type": "*生日", "name": "老婆", "year": "1998", "date": "05-28"},
+      festivals: [
+        {"type": "*生日", "name": "老婆", "year": "1998", "date": "05-28"},
                  ],
       customizedDateList: [
       {"keyword": "love_day", date: "2022-03-30"},
         // 结婚纪念日
         //{"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
-        //{"keyword": "ex_day", date: "2022-09-10"},]
+        //{"keyword": "ex_day", date: "2022-09-10"},
+      ]
     },
     {
       name: "老婆2",
